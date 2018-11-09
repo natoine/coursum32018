@@ -21,7 +21,7 @@ _Définitions :_
 * serveur : c'est l'application qui écoute et attend les requêtes et renvoie une réponse à une requête.
 * Requête : une requête http est la demande qu'envoie un client à un serveur, l'action de la demande est précisée par la méthode http invoquée.
 * Réponse : le retour envoyé par le serveur au client suite à une requête.
-![Image serveur client](/schemaS-C.jpg "schema client serveur"=250x)
+![Image serveur client](/schemaS-C.jpg =250x "schema client serveur")
 * Route http : c'est la définition d'une URL sur laquelle une opération peut être effectuée par le serveur à la demande du client selon une méthode http et aboutissant à une réponse.
 * API Web : (Application Programming Interface) Collection de routes http que propose le serveur aux clients. 
 * parsing de données : parcourir une donnée pour en extraire ce qui nous intéresse, éventuellement le traduire dans un autre format.
