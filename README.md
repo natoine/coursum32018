@@ -72,10 +72,10 @@ Développer sa propre API avec au moins une route en GET et une route en POST.
 
 _Technologies utilisées :_
 
-* mongodb
-* mongolab
-* node.js
-* npm
+* node.js : est une application logicielle libre permettant de développer des applicatifs réseaux et notamment des serveurs http. https://nodejs.org/en/
+* npm : dans l'univers javascript on parle de modules pour réutiliser du code fait par d'autres. NPM () https://www.npmjs.com/
+* mongodb : une base de données orientée documents stockant les objets en JSON binaire. L'utilisation de Mongodb avec nodejs est largement documentée et le fait que les documents soient stockés en JSON en font une solution fréquemment utilisée. https://www.mongodb.com/
+* mongolab : un service d'hébergement de bases mongodb offrant un hébergement limité gratuit. Largement suffisant pour le projet. https://mlab.com/home
 * heroku
 * SPARQL
 * templating ejs
