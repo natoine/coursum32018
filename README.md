@@ -28,11 +28,12 @@ _Définitions :_
 * Route http : c'est la définition d'une URL sur laquelle une opération peut être effectuée par le serveur à la demande du client selon une méthode http et aboutissant à une réponse.
 * API Web : (Application Programming Interface) Collection de routes http que propose le serveur aux clients. 
 * parsing de données : parcourir une donnée pour en extraire ce qui nous intéresse, éventuellement le traduire dans un autre format.
-* langage de programmation : c'est un langage qui permet d'écrire un programme (une application), donc de décrire des opérations à faire exécuter par le système.
+* langage de programmation : c'est un langage qui permet d'écrire un programme (une application), donc de décrire des opérations à faire exécuter par le système. Par exemple, le javascript.
 * langage de description : c'est un langage qui permet de mettre en forme des données, de décrire un modèle de données. Par exemple le html est un langage à balises permettant de décrire une page d'un document hypertexte.
 * négociation de contenus : c'est l'opération entre le client et le serveur leur permettant de s'accorder sur le format de données renvoyé par le serveur au client.
 * web statique : c'est quand un serveur web ne fait que renvoyer des données (principalement des pages web en html) stockées telles quelles dans des fichiers. 
 * web dynamique : c'est quand un serveur web fabrique / génére à la volée, par un calcul, les fichiers qu'il renvoie. Le résultat du calcul peut et donc le fichier renvoyé en réponse peut alors varier en fonction du temps. 
+* framework : un ensemble d'outils et de pratiques.
 
 _Technologies utilisées :_
 
@@ -42,16 +43,15 @@ _Technologies utilisées :_
 * git : l'outil de gestion de version utilisé dans le projet. https://git-scm.com/
 * github ( et githupage ) : le service en ligne d'hébergement de repository git. https://github.com/
 les githubpage sont une façon de rendre accessible une page de votre projet git. Si votre projet n'inclue que du code client, c'est une bonne façon d'héberger et de rendre accessible votre projet. A paramétrer dans chaque projet.
-* javascript
-* fetch
-* XMLhttprequest
-* XML
-* RDF
-* JSON
-* le DOM
+* javascript : un navigateur web est un client http qui interpréte du html. Mais un navigateur est aussi un interpréteur du langage javascript. Ce qui fait de javascript le langage de programmation incontournable du web. https://fr.wikipedia.org/wiki/JavaScript
+* fetch : fetch est une fonction pour réaliser des requêtes http asynchrones à partir d'un script javascript client. Cette fonction tend à devenir la référence et remplacer XMLhttprequest dans les bonnes pratiques de développeurs web. Pour une introduction à fetch et mieux comprendre l'histoire de XMLhttprequest et fetch : https://developers.google.com/web/updates/2015/03/introduction-to-fetch
+* XML : est un format de données pour représenter des arbres de données. https://www.w3.org/TR/xml/
+* RDF : est un framework pour représenter et partager des données et des formats de données. https://www.w3.org/RDF/
+* JSON : la façon de représenter des objets javascript. De syntaxe simple mais peu verbeuse, le json est devenu un format de données largement répandu sur le web. https://www.json.org/
+* le DOM : ( Document Object Model ) le DOM représente le html interprété par un navigateur et transformé en une collection d'objets dont le navigateur fait notamment un rendu graphique. Le DOM est modifiable par le javascript client et permet de modifier le rendu graphique d'une page html côté client. https://www.w3.org/DOM/
 
 _La consigne du Projet :_
-Faire un mashup qui récupére des données de plusieurs API ( au moins 2 ) uniquement en code client, en utilisant fetch ( et éventuellement XMLhttprequest ) hébergé en githubpage.
+Faire un mashup qui récupére des données de plusieurs API ( au moins 2 ) uniquement en code client, en utilisant fetch ( et éventuellement XMLhttprequest ) hébergé en githubpage. Vous serez amenés à modifier le DOM en fonction des données récupérées.
 
 **Notions de Master 2 - OpenData**
 
@@ -63,7 +63,8 @@ _Définitions :_
 * Web de données : c'est une vision dans laquelle le web est un moyen d'accès à des données les rendant réutilisables. C'est voir le web comme une grande base de données.
 * OpenData : démarche d'ouverture des données sur le web. L'opendata par rapport au web des données en utilise ses mécaniques et ajoute des libertés de réutilisation. C'est une démarche notamment adoptée par les administrations publiques ou collectivités territoriales afin de garantir la transparence des administrations aux citoyens. La réutilisabilité des données permet la mise en place de nouveaux services ou nouvelles applications.
 * Web Sémantique : c'est une vision du web de données où les relations entre les ressources sont typées et ont une sémantique explicitée. Ce qui définit des formats de données très verbeux (au sens accessible à tout le monde car très fourni) par exemple RDF. 
-* one page application : 
+* one page application : une seule ressource composée de html et de javascript est chargée dans le navigateur. Le contenu de la page évolue en résultat à des requêtes émises par le javascript.
+* requête asynchrone : quand on fait une requête, on est dépendant du délai de réponse du serveur. En mode synchrone tout l'exécution du code est en attente de la réponse. En mode asynchrone, on définit un code à traiter au moment de la réponse ( on parle de fonction callback ). Du coup, le reste du code est exécuté. La fonction callback sera quand à elle exécutée au moment de la réponse.
 
 _La consigne du Projet :_
 Faire un mashup qui récupére des données de plusieurs API ( au moins 2 ) en code client-serveur, en utilisant fetch et request hébergé sur heroku.
