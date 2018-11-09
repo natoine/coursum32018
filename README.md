@@ -73,11 +73,11 @@ Développer sa propre API avec au moins une route en GET et une route en POST.
 _Technologies utilisées :_
 
 * node.js : est une application logicielle libre permettant de développer des applicatifs réseaux et notamment des serveurs http. https://nodejs.org/en/
-* npm : dans l'univers javascript on parle de modules pour réutiliser du code fait par d'autres. NPM () https://www.npmjs.com/
+* npm : dans l'univers javascript on parle de modules pour réutiliser du code fait par d'autres. NPM (initialement Node Package Manager) est l'outil de gestion des modules javacript. C'est ce qui va vous permettre de télécharger et installer les modules que vous allez utiliser dans node. https://www.npmjs.com/
 * mongodb : une base de données orientée documents stockant les objets en JSON binaire. L'utilisation de Mongodb avec nodejs est largement documentée et le fait que les documents soient stockés en JSON en font une solution fréquemment utilisée. https://www.mongodb.com/
 * mongolab : un service d'hébergement de bases mongodb offrant un hébergement limité gratuit. Largement suffisant pour le projet. https://mlab.com/home
-* heroku
-* SPARQL
-* templating ejs
+* heroku : qui dit serveur http, dit hébergement du serveur. Heroku est un service proposant un hébergement limité mais gratuit de serveurs http. Largement suffisant pour le projet et bien adapté à un projet nodejs dont les versions du code sont stockées sur github. https://dashboard.heroku.com
+* SPARQL : (SPARQL Protocol and RDF Query Language) est le langage de requêtes pour RDF basé sur un principe de matching de graphe. https://www.w3.org/TR/rdf-sparql-query/
+* templating ejs : 
 * request ( node.js )
 * markdown
