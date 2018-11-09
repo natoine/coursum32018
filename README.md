@@ -1,7 +1,7 @@
 # coursum32018
 support pour les étudiants de M1 et M2 Miashs à l'UM3 
 
-**Notions de Master 1 - intégration de données connectées**
+**intégration de données connectées**
 
 Le but de ce cours est de forger une première culture de ce qu'est le Web et la problématique de l'interopérabilité.
 Les étudiants doivent réaliser un premier mashup uniquement en code client.
@@ -53,7 +53,7 @@ les githubpage sont une façon de rendre accessible une page de votre projet git
 _La consigne du Projet :_
 Faire un mashup qui récupére des données de plusieurs API ( au moins 2 ) uniquement en code client, en utilisant fetch ( et éventuellement XMLhttprequest ) hébergé en githubpage. Vous serez amenés à modifier le DOM en fonction des données récupérées.
 
-**Notions de Master 2 - OpenData**
+**OpenData**
 
 Le but de ce cours est d'approfondir la culture de ce qu'est le Web en abordant les notions de Web de données, de Web Sémantique et d'OpenData. En s'inspirant des one page application, le code client devra faire des fetch vers l'API développée.
 Les étudiants doivent réaliser un deuxième mashup cette fois-ci en code serveur avec node.js.
@@ -78,6 +78,6 @@ _Technologies utilisées :_
 * mongolab : un service d'hébergement de bases mongodb offrant un hébergement limité gratuit. Largement suffisant pour le projet. https://mlab.com/home
 * heroku : qui dit serveur http, dit hébergement du serveur. Heroku est un service proposant un hébergement limité mais gratuit de serveurs http. Largement suffisant pour le projet et bien adapté à un projet nodejs dont les versions du code sont stockées sur github. https://dashboard.heroku.com
 * SPARQL : (SPARQL Protocol and RDF Query Language) est le langage de requêtes pour RDF basé sur un principe de matching de graphe. https://www.w3.org/TR/rdf-sparql-query/
-* templating ejs : 
-* request ( node.js )
-* markdown
+* templating ejs : ejs est un outil de templating que vous pouvez utiliser avec nodejs pour générer des pages html. Le templating ejs permet d'écrire un fichier .ejs dont la syntaxe est celle du html plus une balise permettant d'injecter des variables javascript. Le fichier .ejs permet au serveur de renvoyer du html en réponse après avoir interprété les variables présentes dans le .ejs. Cette technologie n'est pas obligatoire pour le projet. https://ejs.co/
+* request ( node.js ) : request est un module npm permettant de faire des requêtes http. Cette technologie n'est pas obligatoire pour le projet. https://www.npmjs.com/package/request
+* markdown : est un langage simple et léger permettant d'écrire des documents. Il est notamment directement interprété par l'interface de github. Pratique pour écrire et mettre en page simplement des documents comme celui que vous lisez. https://daringfireball.net/projects/markdown/
