@@ -19,16 +19,16 @@ _Définitions :_
 * mashup : c'est une application qui mélange des données provenant de plusieurs sources.
 * client : c'est l'application qui envoie une requête et qui attend une réponse.
 * serveur : c'est l'application qui écoute et attend les requêtes et renvoie une réponse à une requête.
-* Réponse :
-* Requéte :
+* Requête : une requête http est la demande qu'envoie un client à un serveur, l'action de la demande est précisée par la méthode http invoquée.
+* Réponse : le retour envoyé par le serveur au client suite à une requête.
 * Route http : c'est la définition d'une URL sur laquelle une opération peut être effectuée par le serveur à la demande du client selon une méthode http et aboutissant à une réponse.
 * API Web : (Application Programming Interface) Collection de routes http que propose le serveur aux clients. 
 * parsing de données : parcourir une donnée pour en extraire ce qui nous intéresse, éventuellement le traduire dans un autre format.
 * langage de programmation : c'est un langage qui permet d'écrire un programme (une application), donc de décrire des opérations à faire exécuter par le système.
 * langage de description : c'est un langage qui permet de mettre en forme des données, de décrire un modèle de données.
 * négociation de contenus : c'est l'opération entre le client et le serveur leur permettant de s'accorder sur le format de données renvoyé par le serveur au client.
-* web statique
-* web dynamique
+* web statique : c'est quand un serveur web ne fait que renvoyer des données (principalement des pages web en html) stockées telles quelles dans des fichiers. 
+* web dynamique : c'est quand un serveur web fabrique / génére à la volée, par un calcul, les fichiers qu'il renvoie. Le résultat du calcul peut et donc le fichier renvoyé en réponse peut alors varier en fonction du temps. 
 
 _Technologies utilisées :_
 
