@@ -8,17 +8,18 @@ Les étudiants doivent réaliser un premier mashup uniquement en code client.
 
 _Définitions :_
 
-* Web ( http, URI, HTML )
-* interopérabilité
-* mashup
-* client
-* serveur
+* Web ( http, URI, HTML ) : 
+* interopérabilité : c'est quand des programmes sont capables de communiquer entre eux, ce qui implique la définition d'un protocole de communication et de formats de données connus et partagés par ces programmes.
+* mashup : c'est une application qui mélange des données provenant de plusieurs sources.
+* client : c'est l'application qui envoie une requête et qui attend une réponse.
+* serveur : c'est l'application qui écoute et attend les requêtes et renvoie une réponse à une requête.
 * Réponse
 * Requéte
 * API
 * parsing de données
 * langages de programmation
 * langages de description
+* négociation de contenu
 
 _Technologies utilisées :_
 
