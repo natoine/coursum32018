@@ -25,7 +25,7 @@ _Définitions :_
 * API Web : (Application Programming Interface) Collection de routes http que propose le serveur aux clients. 
 * parsing de données : parcourir une donnée pour en extraire ce qui nous intéresse, éventuellement le traduire dans un autre format.
 * langage de programmation : c'est un langage qui permet d'écrire un programme (une application), donc de décrire des opérations à faire exécuter par le système.
-* langage de description : c'est un langage qui permet de mettre en forme des données, de décrire un modèle de données.
+* langage de description : c'est un langage qui permet de mettre en forme des données, de décrire un modèle de données. Par exemple le html est un langage à balises permettant de décrire une page d'un document hypertexte.
 * négociation de contenus : c'est l'opération entre le client et le serveur leur permettant de s'accorder sur le format de données renvoyé par le serveur au client.
 * web statique : c'est quand un serveur web ne fait que renvoyer des données (principalement des pages web en html) stockées telles quelles dans des fichiers. 
 * web dynamique : c'est quand un serveur web fabrique / génére à la volée, par un calcul, les fichiers qu'il renvoie. Le résultat du calcul peut et donc le fichier renvoyé en réponse peut alors varier en fonction du temps. 
