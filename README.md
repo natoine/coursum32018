@@ -36,11 +36,12 @@ _Définitions :_
 
 _Technologies utilisées :_
 
-* http
-* html
-* URI / URL
-* git
-* github ( et githupage )
+* http : le protocole de communication du web. https://www.w3.org/Protocols/rfc2616/rfc2616.html
+* html : le format de données des pages web. https://www.w3.org/TR/html/
+* URI / URL : le système de nommage et d'adressage des Ressources. https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.2
+* git : l'outil de gestion de version utilisé dans le projet. https://git-scm.com/
+* github ( et githupage ) : le service en ligne d'hébergement de repository git. https://github.com/
+** les githubpage sont une façon de rendre accessible une page de votre projet git. Si votre projet n'inclue que du code client, c'est une bonne façon d'héberger et de rendre accessible votre projet. A paramétrer dans chaque projet.
 * javascript
 * fetch
 * XMLhttprequest
